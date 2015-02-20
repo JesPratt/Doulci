@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Document disableHistory="true" xmlns="http://www.apple.com/itms/">
+	<Protocol>
+		<plist version="1.0">
+			<dict>
+				<key>iphone-activation</key>
+				<dict>
+					<key>activation-record</key>
+					<dict>
+						<key>FairPlayKeyData</key>
+						<data>LS0tLS1CRUdJTiBDT05UQUlORVItLS0tLQpBQUVBQVovS3ZLeTZIY2Y4TEhrTHlrREJwKytjMzVyZUkwWXZuOWlMcXRkT2h3c2lYU1NTTTFIQ1hGRW9vaTZ0CjI2TzlCSlo2U3hscU1oL21VTVB6ZW00ZFMzeTlDNDVkT0RFWElJSmpvbjVrV0VkNitKQkxjeXhSTEF3RHJ0bEIKNVBlL0tFZjRYTmh5b2VSSlNKNXVqRU1iM1o3NkZad0xWeWc5NHl4L05rbDQ0RElyV3JMTFBzUk03dGUyc2ZuUAppaWkva1RnVk1OaDFnUitmODM4V3FMOXl6VzRLTWVFc2tzQ3ZoVzkvMHNGMVlZVjRRc3hTR3hwc1k0T2VpUUYyCmNBSXBmU1N2aEVTUTRVR0plbjJlSUEvNXdBQlllYTVrSEM0SG9xb3RmbFlCRzlyYVZLUlozMWFtNHI2YkdQYkIKM1lJZ3E2RklQSVkxbTYyUWJsL0JDUnljQUlHMXRaSUU4WWI4L0ovM1MrNzAxVHl4Uy9HSUV3eC9ubHRPdGxpVgpRME1IM3R3MU9MSHdtYU1ZVkgrMzEzWll1UFBJclpsTmF5cW1sM09XS0FVMG1rNnd5WTZOUUFuYWhUK0NnMjBWCnR1MXFxclpBOS9wendDbVQ4ZUVZbTJZcDg5N2ZRSGxCZ3U4ZEFsQVJMaHJXcHF5OXJjZHQ5NVZnWjhZTklKNTUKRjVLZ1hmNUFubyt4N0FaWjFpTXhZajM3RmpFbk1tQ29yNzBXdDVleWgwdjhpL2pjeHgwd003NlRVYTdBRXF1TQpJNUNWdFBKS3FLcXcvZVMvbzk5UnE4UzRnN2xVZGNOSTl3MTZDcHd0cGxtN0szcXUvQmI0Ni9wT0V2OTk3emd0CmJ1cEdiNnhSOCtDSFZrOFU5b3M1SlhNYk1oNGlIVmJYMnNJb3E1UW9FcnBtUXZITFJlV25EcnFOUkMzeFBQWlgKUkhSWWRkQXcrd0E4UTFTZnVBdXMyQ3ZLMFB5ZGdKcFgyYXp3ZHRUWENESWg1dmh2TTR1amJjaDVFY2hhME1DeApGMFBwakk5S1ZmUGxwVjFCVWlFYkZ2TFJ3clowYmdHZk02TXhDQmtzL3BFQktOK21UZHNUbUhyRDZYak1pUEdiCk4zNmVVOHdWVTduRkxmMHNmaFNYTlV4UWFRQ1FQOENTbFRxT0NSdUpGUGxQTVc0ajgzMmVjSmpZS3VTUXZhUFYKTElUL28yRHRzQ0dQc09iWUhOQXJWRC8ySTdsckNOcWY5dU5JSUFnRlBmOEV4ZzVwRmpuMys5cE5SOHB6THZhbwpLdmZJa05USkswYnFBNWMvVEFFNEYwanRLQlNmc2ptVFZOdittM1RpdTF2Y01hMXZtQmhYU2NvdWxyMjRzZW8yCnk2QXFVTGVvVm03SXhiZVhHTFVqYXE4OG9DUU1WRnlMWEYyRXZmQmdIVG41YzYySzNseEJzZkN5K1lKUlBGM3oKczIwQ3A4VmEyS0hxVWpsQ3d0WGJMSUVQM2lIaHB5YmhlU1Bhb2V4VVBzdHpMMGxGMmc2bk9jTmZjcVJ4T3loWQp6M3Mzd3hBL1NyZktWKzQ1RXpZZGFaR20wdm56VGtCV2c3ckhXNy9UdnN2OTJnNktIcDlsTXRBZm40c2ZlWnVPCnBUOHlqZmJvSVlCVzFsZ1NrOUxxUW02SVFuRDdxeTJxNUE0OVpJWEx5WTZzOUFxNDdRMEZyd2tRbzFtV2RVbnUKZUpaSjYwLzRnNEk3Mk5NOThFdWJvUVhpVDFJd29NTW5Rd2VpMzVWSUVoWGl2bm1LUWV0M1VnSWxTTU1JVEp0MwoxSU5ENFQ0d2ErT0NkSis2VEdsMEdvcExDTm1mSS9uRlI4RTZybHo1OHdLNFI2Rk1neU9ibzB0eWVFdmk5dXFuCitsV1Vvbm9oM1V4MTJZUUhqS2NYQUxuVmZwSTBqNG9UQU02dFBtNHluZnBSYU4xVWc4ZWxMYlZ6YlJxSWtybTUKSXQwcDFwMmlJZFFQVkxNMGxBRUkvWUQ2RjFCbnV5MWVsOTJtZjh5VVgwUzA4b3JiCi0tLS0tRU5EIENPTlRBSU5FUi0tLS0tCg==</data>
+						<key>AccountTokenCertificate</key>
+						<data>LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURaekNDQWsrZ0F3SUJBZ0lCQWpBTkJna3Foa2lHOXcwQkFRVUZBREI1TVFzd0NRWURWUVFHRXdKVlV6RVQKTUJFR0ExVUVDaE1LUVhCd2JHVWdTVzVqTGpFbU1DUUdBMVVFQ3hNZFFYQndiR1VnUTJWeWRHbG1hV05oZEdsdgpiaUJCZFhSb2IzSnBkSGt4TFRBckJnTlZCQU1USkVGd2NHeGxJR2xRYUc5dVpTQkRaWEowYVdacFkyRjBhVzl1CklFRjFkR2h2Y21sMGVUQWVGdzB3TnpBME1UWXlNalUxTURKYUZ3MHhOREEwTVRZeU1qVTFNREphTUZzeEN6QUoKQmdOVkJBWVRBbFZUTVJNd0VRWURWUVFLRXdwQmNIQnNaU0JKYm1NdU1SVXdFd1lEVlFRTEV3eEJjSEJzWlNCcApVR2h2Ym1VeElEQWVCZ05WQkFNVEYwRndjR3hsSUdsUWFHOXVaU0JCWTNScGRtRjBhVzl1TUlHZk1BMEdDU3FHClNJYjNEUUVCQVFVQUE0R05BRENCaVFLQmdRREZBWHpSSW1Bcm1vaUhmYlMyb1BjcUFmYkV2MGQxams3R2JuWDcKKzRZVWx5SWZwcnpCVmRsbXoySkhZdjErMDRJekp0TDdjTDk3VUk3ZmswaTBPTVkwYWw4YStKUFFhNFVnNjExVApicUV0K25qQW1Ba2dlM0hYV0RCZEFYRDlNaGtDN1QvOW83N3pPUTFvbGk0Y1VkemxuWVdmem1XMFBkdU94dXZlCkFlWVk0d0lEQVFBQm80R2JNSUdZTUE0R0ExVWREd0VCL3dRRUF3SUhnREFNQmdOVkhSTUJBZjhFQWpBQU1CMEcKQTFVZERnUVdCQlNob05MK3Q3UnovcHNVYXEvTlBYTlBIKy9XbERBZkJnTlZIU01FR0RBV2dCVG5OQ291SXQ0NQpZR3UwbE01M2cyRXZNYUI4TlRBNEJnTlZIUjhFTVRBdk1DMmdLNkFwaGlkb2RIUndPaTh2ZDNkM0xtRndjR3hsCkxtTnZiUzloY0hCc1pXTmhMMmx3YUc5dVpTNWpjbXd3RFFZSktvWklodmNOQVFFRkJRQURnZ0VCQUY5cW1yVU4KZEErRlJPWUdQN3BXY1lUQUsrcEx5T2Y5ek9hRTdhZVZJODg1VjhZL0JLSGhsd0FvK3pFa2lPVTNGYkVQQ1M5Vgp0UzE4WkJjd0QvK2Q1WlFUTUZrbmhjVUp3ZFBxcWpubTlMcVRmSC94NHB3OE9OSFJEenhIZHA5NmdPVjNBNCs4CmFia29BU2ZjWXF2SVJ5cFhuYnVyM2JSUmhUekFzNFZJTFM2alR5Rll5bVplU2V3dEJ1Ym1taWdvMWtDUWlaR2MKNzZjNWZlREF5SGIyYnpFcXR2eDNXcHJsanRTNDZRVDVDUjZZZWxpblpuaW8zMmpBelJZVHh0UzZyM0pzdlpEaQpKMDcrRUhjbWZHZHB4d2dPKzdidFcxcEZhcjBaakY5L2pZS0tuT1lOeXZDcndzemhhZmJTWXd6QUc1RUpvWEZCCjRkK3BpV0hVRGNQeHRjYz0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=</data>
+						<key>DeviceCertificate</key>
+						<data>LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM4akNDQWx1Z0F3SUJBZ0lKVHlXakIyNmZVWnVDTUEwR0NTcUdTSWIzRFFFQkJRVUFNRm94Q3pBSkJnTlYKQkFZVEFsVlRNUk13RVFZRFZRUUtFd3BCY0hCc1pTQkpibU11TVJVd0V3WURWUVFMRXd4QmNIQnNaU0JwVUdodgpibVV4SHpBZEJnTlZCQU1URmtGd2NHeGxJR2xRYUc5dVpTQkVaWFpwWTJVZ1EwRXdIaGNOTVRRd016SXhNREEwCk1URXdXaGNOTVRjd016SXhNREEwTVRFd1dqQ0JnekV0TUNzR0ExVUVBeFlrT0RrMU56QTVOemN0TnpWQlF5MDAKTjBKR0xUazVNRFl0T0RJMk16Y3dNakpDTjBJME1Rc3dDUVlEVlFRR0V3SlZVekVMTUFrR0ExVUVDQk1DUTBFeApFakFRQmdOVkJBY1RDVU4xY0dWeWRHbHViekVUTUJFR0ExVUVDaE1LUVhCd2JHVWdTVzVqTGpFUE1BMEdBMVVFCkN4TUdhVkJvYjI1bE1JR2ZNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0R05BRENCaVFLQmdRRHpPVFkrcEppWVVpNXUKVzZ6dXNKaWZyMWdFQjhjWUtBMHpzL2tKOERtRk1RSHRuSEFHMnJtN1orWFk4cVBoOG9CRjFWSTRjY1Uwdmc2SQpDMENyU3hXN3V3Y05Gc0MvNHowWjhhTlNvZmorbDVmWDJSVVA3QkkzREFIaWwyei9heFhaZ0dveGNpZzlhMHJ4CmNzT2JqclZuMVBjK1pJcllHSjJvYk1ZczZvQWhZd0lEQVFBQm80R1ZNSUdTTUI4R0ExVWRJd1FZTUJhQUZMTCsKSVNORWhwVnFlZFdCSm81ekVOaW5USTUwTUIwR0ExVWREZ1FXQkJSUEFsWUdWemthZTk0djZ3UUFEaHpGNEo3ZwpyakFNQmdOVkhSTUJBZjhFQWpBQU1BNEdBMVVkRHdFQi93UUVBd0lGb0RBZ0JnTlZIU1VCQWY4RUZqQVVCZ2dyCkJnRUZCUWNEQVFZSUt3WUJCUVVIQXdJd0VBWUtLb1pJaHZkalpBWUtBZ1FDQlFBd0RRWUpLb1pJaHZjTkFRRUYKQlFBRGdZRUFOeUxvVTFjakx1bGxESi8vQk5wNGtrWHllUHpMRnhBNXFyQ0YzWVA2dmkxTmlZK2dqOEdCM0drTAoya01yMFdCblRvSDExclAvUkluNXNoYVM2K05TQjl2WTAzQmRJNzRHcm9IMkRiK0haL3F1Q0lpZ3BCNzJ0b01jClg0ZzNoWDlwd29Fb0ErU2lGdmdnNTJNTndKa29SVXBNMHhFaElGeUZuMFdxYTVxWnpmQT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=</data>
+						<key>AccountTokenSignature</key>
+						<data>oEyAiijvs7ZB2DVKF5poyXlJaK9QicwGsaLd/Jn4pYd8odmEgciCYn6BVgwgOiW7iwoYPYBR0O+HRhmn0X1NgfWAaCRhaZL6b71RlDK95iRZjq/2e9P7xfU39RZjP9Dvnsm0VnAGxVuJ68nred7CQHs5r2S6Hix6f13YlwRyXmk=</data>
+						<key>AccountToken</key>
+						<data>ewoJIkludGVybmF0aW9uYWxNb2JpbGVFcXVpcG1lbnRJZGVudGl0eSIgPSAiMDEyNzQ1MDA4MDY3MTg5IjsKCSJBY3Rpdml0eVVSTCIgPSAiaHR0cHM6Ly9hbGJlcnQuYXBwbGUuY29tL2RldmljZXNlcnZpY2VzL2FjdGl2aXR5IjsKCSJBY3RpdmF0aW9uUmFuZG9tbmVzcyIgPSAiMDRGNUNCQjEtRjg4Ny00RkFDLUFCN0ItNkJEMEIxNjlGNDkxIjsKCSJVbmlxdWVEZXZpY2VJRCIgPSAiNjk5NzI0NmQ2MjcwZTZhODM4ZThhMGQzOTgyNWM2ZGZhM2NlNjkyNSI7CgkiQ2VydGlmaWNhdGVVUkwiID0gImh0dHBzOi8vYWxiZXJ0LmFwcGxlLmNvbS9kZXZpY2VzZXJ2aWNlcy9jZXJ0aWZ5TWUiOwoJIlBob25lTnVtYmVyTm90aWZpY2F0aW9uVVJMIiA9ICJodHRwczovL2FsYmVydC5hcHBsZS5jb20vV2ViT2JqZWN0cy9BTFVuYnJpY2sud29hL3dhL3Bob25lSG9tZSI7CgkiV2lsZGNhcmRUaWNrZXQiID0gIjAyMDAwMDAwNGRhYzk0MTA1MWQ3ODRmOGZjMDE4YjgxNTczZmY4ZTA3MmE4NjE3YTI0Y2FmNmYyOGUxYWM5NzA2MmU4ZTVmNTNiNDc3ODUxMGRiNWJkMTM2YTI3ZWZmZDhjYTAxZTE2ZDM2MmEyYjM0YTY1MTBlNzAzZmE3ZTgxYjZiNzlmNGM0Y2E2NmQzYmEwMWUyMTY0NzZjNjMyMzljNTMyY2JiYTYwZjg0Yjc4MTM0NTA5NGE0N2E1NWUzNmNkODQyM2QzMTQxZDJiYjc1M2NhY2JlNzAyZWZlM2U1ZTc2M2VhOTY3NTM2M2M1NGNjMzBiMzBhZDMzMWY0MTA3NzQ1YmE4NTE0ZTc4MjhjYzY1NzVhYTcwYjcxYWMyMDVlODYwZThhMjA1ZjBkYzAzOGMzZGE5NmZmNGQ0MTBhYTcwYWVmZDQ4OWJjYWQ5NGFiNzRlMDY1Y2M4YTEwZjg0ZGY0NjNkYzZmZmQ5YWE2YzQ2ODhmMGIyNDhjZDU4MjY3ZTAzMmQ1MzdjY2VmNWZmYjIzNGZkNjljMjdiYzcyZTM3YjM4NjYyY2E3YjI0NmNiNWI1YWM2MzVmZTY4Yjc1MWVjNzJmN2FkOTAxM2UxYzMzMDg5ZDI0MmYwZGM0NGM0MTMzOGZhM2Q2MzQ1OTAyZjIzYzQ2MjhhNTEyYWM3MTZmYjc5YjE0MjVjNGU5NmJhNTQ4NTEwNThmNDg3YzVlOWI2ZTZmNDliNzVjZWU3OTY2N2U2MWNmNjBkMWE0NzJiNjdjMzhiNmFjZjNlY2YwYmZkN2M4YThlYjBkNzI3ZTFmOWZjYTVmZjczZWZiYzc1ZjRhOGUzYzU2NTEyMDcwNGJhM2E2Mjg1ZWFkNWM4MzdlODc3ZTZlMTJjZWZjYjdiYzRkMGMzOTY2ZWQyMTA4ZmIyM2M4MDVhY2FkMGRjODRhNjcwNzg3ZjdlYmZlNmZmZjBkOTk0YmMwZWVlMDAxMjQ3ZDEzNTA0NGRkNTczN2NhOTI5MzE5MDNmZmQzNjU0OGI4MzY4OGM1ZmU4NjdkMjQ2OGQ5OTUzMzA2ZjRlMDU5ZGYzNjQ1YmEzMDJlOGY0YmYzOTk3NmFhOWFjMGQxZGFkMDk1ZmFiZDc3ZjAwMGEzNjhiMjdjYjZjMjdmZmZiYmVlNDI0YzdkYTQzYzkzYmRkMzVjZjMxNTBkNDQ4YjIxZDc3MDcwMmZkOTIwYzMxNTExYzZlNTZhMDZmNmRlOTg0MDBmM2QzNjcwZWNkYTM5ZWJkYWJiNjA3NTdhNDY1MDBhMTMxYzQ1NGVkOTFkYjViMzJhNzVhYTQzYjk3N2NjY2IwNGU5MzdhZmRmZmJjOWU1Mzg1YWEyNWI2MWNjMzA5OTk1ODY4MDc3N2I0NmY4MmVkOWFkOGI0MGY5M2Y5NDYyYTUyNDNjOWFlYWY4ZjBjNzA5OTg1ZWFlNzBmZDUwZWY3NzlhMTBlODU5ZGQwZTM5ZDI4ZjE0MDI4M2U1OTVjMTcyNmU3ZmE5MGZlZjJkODg5MTQzOWVhNzNhNjI4MzQ3MThjMDc2NmM1Y2RhYjc1YmJlYyI7Cn0=</data>
+					</dict>
+					<key>unbrick</key>
+					<true />
+				</dict>
+			</dict>
+		</plist>
+	</Protocol>
+	<ScrollView rightInset="0" topInset="0" bottomInset="0"
+		leftInset="0" stretchiness="1" horzScroll="as needed" vertScroll="as needed">
+		<View>
+			<Include target="main"
+				url="https://albert.apple.com/albert/static/fontstyles.css" />
+			<MatrixView viewName="iphoneSystemsWizard" rightInset="0"
+				bottomInset="0" leftInset="0" topInset="0" rowFormat="100%,*">
+				<VBoxView>
+					<HBoxView minWidth="774" leftInset="50" rightInset="50">
+						<View stretchiness="1" />
+						<VBoxView minWidth="774" topInset="0" leftInset="0"
+							rightInset="0">
+							<PictureView width="11" topInset="8" height="12"
+								rightInset="2" url="https://albert.apple.com/images/lock.png" />
+							<HBoxView leftInset="0" rightInset="0" topInset="3">
+								<PictureView width="42" topInset="0" height="66"
+									url="https://albert.apple.com/albert/images/apple_chrome.png" />
+								<View stretchiness="1" />
+								<PictureView width="120" topInset="8" height="37"
+									rightInset="2"
+									url="https://albert.apple.com/albert/images/iphonereg/logo.jpg" />
+							</HBoxView>
+						</VBoxView>
+						<View stretchiness="1" />
+					</HBoxView>
+					<HBoxView minWidth="770" leftInset="50" rightInset="50">
+						<View stretchiness="1" />
+						<VBoxView topInset="0" leftInset="0" rightInset="0">
+							<View topInset="15">
+								<View rightInset="0" borderColor="999999" topInset="0"
+									bottomInset="0" leftInset="0" borderWidth="1">
+									<VBoxView minWidth="600" topInset="48" leftInset="85"
+										bottomInset="50" rightInset="85">
+										<TextView topInset="0" normalStyle="lucida18"
+											leftInset="0" rightInset="0" bottomInset="0" textJust="center" />
+										<View height="30" />
+										<TextView topInset="0" styleSet="normal13" leftInset="0"
+											rightInset="0" bottomInset="0" textJust="center" />
+										<TextView />
+										<TextView />
+										<View stretchiness="1" />
+									</VBoxView>
+								</View>
+								<PictureView leftInset="0" width="8" topInset="0"
+									height="8"
+									url="https://albert.apple.com/images/boxline/boxline_ffffff_topl.png" />
+								<PictureView width="8" topInset="0" height="8"
+									rightInset="0"
+									url="https://albert.apple.com/images/boxline/boxline_ffffff_topr.png" />
+								<PictureView leftInset="0" width="8" height="8"
+									bottomInset="0"
+									url="https://albert.apple.com/images/boxline/boxline_ffffff_botl.png" />
+								<PictureView width="8" height="8" rightInset="0"
+									bottomInset="0"
+									url="https://albert.apple.com/images/boxline/boxline_ffffff_botr.png" />
+							</View>
+						</VBoxView>
+						<View stretchiness="1" />
+					</HBoxView>
+				</VBoxView>
+				<VBoxView leftInset="0" rightInset="0">
+					<View height="88" />
+					<TextView topInset="2" leftInset="0" styleSet="basic9"
+						textJust="center" />
+					<TextView topInset="2" leftInset="0" styleSet="basic9"
+						textJust="center" />
+					<TextView topInset="2" leftInset="0" styleSet="basic9"
+						textJust="center" />
+					<TextView topInset="2" leftInset="0" styleSet="basic9"
+						textJust="center" />
+					<TextView topInset="2" leftInset="0" styleSet="basic9"
+						textJust="center" />
+					<View height="8" />
+					<View height="30" />
+					<HBoxView bottomInset="0">
+						<View stretchiness="1" />
+						<TextView topInset="2" leftInset="0" styleSet="basic9"
+							textJust="center">Copyright</TextView>
+						<View width="2" />
+						<TextView topInset="2" leftInset="0" styleSet="basic9"
+							textJust="center" />
+						<View width="2" />
+						<TextView topInset="2" leftInset="0" styleSet="basic9"
+							textJust="center">
+							2014 Apple Inc.
+							<OpenURL target="main" url="http://www.apple.com/legal/">All rights reserved.</OpenURL>
+							|
+							<OpenURL target="main"
+								url="http://www.apple.com/legal/iphone/us/privacy">Privacy Policies</OpenURL>
+							|
+							<OpenURL target="main"
+								url="http://www.apple.com/legal/iphone/us/terms">Terms &amp; Conditions</OpenURL>
+						</TextView>
+						<View stretchiness="1" />
+					</HBoxView>
+				</VBoxView>
+			</MatrixView>
+		</View>
+	</ScrollView>
+</Document>

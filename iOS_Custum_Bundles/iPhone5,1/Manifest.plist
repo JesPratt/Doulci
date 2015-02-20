@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>BoardConfig</key>
+    <string>n41ap</string>
+    <key>ApBoardID</key>
+    <integer>0</integer>
+    <key>ApChipID</key>
+    <integer>35152</integer>
+    <key>platform</key>
+    <string>s5l8950x</string>
+  </dict>
+</plist>

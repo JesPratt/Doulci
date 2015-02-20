@@ -1,0 +1,90 @@
+/* HEADER SLIDERSHOW  */
+.cbp-bislideshow {
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	padding: 0;
+	margin: 0;
+}
+
+.cbp-bislideshow li {
+	position: absolute;
+	width: 100.5%;
+	height: 100.5%;
+	top: -0.5%;
+	left: -0.5%;
+	opacity: 0;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+/* If background-size supported we'll add the images to the background of the li */
+.backgroundsize .cbp-bislideshow li {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+/* ...and hide the images */
+.backgroundsize .cbp-bislideshow li img {
+	display: none;
+}
+
+.cbp-bislideshow li img {
+	display: block;
+	width: 100%;
+}
+
+.cbp-bicontrols {
+	position: absolute;
+	width: 90%;
+	height: 100px;
+	margin: -0px 0 0 0px;
+	top: 50%;
+	left: 5%;
+	z-index: 999;
+}
+
+.cbp-bicontrols span {
+	float: left;
+	background: url('../img/next.png');
+	width: 40px;
+	height: 40px;
+	position: relative;
+	cursor: pointer;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+.cbp-bicontrols span.cbp-biprev {
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+	float: left;
+}
+
+.cbp-bicontrols span.cbp-binext {
+	float: right;
+}
+
+.cbp-bicontrols span.cbp-binext:hover, .cbp-bicontrols span.cbp-biprev:hover
+	{
+	opacity: 1;
+}
+
+/* Fallback */
+.no-js.no-backgroundsize .cbp-bislideshow li:first-child {
+	opacity: 1;
+}
+
+.no-js.backgroundsize .cbp-bislideshow li:first-child img {
+	display: block;
+}

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xmlui> <page> <navigationBar title="doulCi Bypass"
+	loadingTitle="Hacking..." hidesBackButton="true" /> <tableView>
+<section>
+	<htmlLabelRow><![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    
+    <!-- Set the viewport to show the page at a scale of 1.0, and make it non-scalable -->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+    
+    <!-- Make it fullscreen / hide the browser URL bar -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+    <!--
+        Give the status bar another colour
+        Valid values for "content" are: "default" (white), "black" and "black-translucent"
+        If set to "default" or "black", the content is displayed below the status bar. If set to
+        "black-translucent", the content is displayed under the bar.
+    -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    
+    <!--
+        Add a Home icon.
+        By default, Mobile Safari searches for a file named "apple-touch-icon.png" in the root directory of your website.
+        If it can't find any image there, you can specify it using the code below. Make sure the image has a dimension
+        of 114x114 and is a PNG file. The glossy finish and resizing for the different devices will be done automatically.
+        
+        In case you don't want the gloss applied, use "apple-touch-icon-precomposed" instead of "apple-touch-icon".
+    -->
+    <link rel="apple-touch-icon" href="http://192.168.1.14/native_ios_app_template/images/apple-touch-icon.png" />
+    
+    <!--
+        Add a splash screen / startup image.
+        Take note this file exactly needs to be 320x460 for iPhone or 1004x768 for iPad, and is a PNG file.
+        Also, this only works if "apple-mobile-web-app-capable" is set to "yes".
+    -->
+    <link rel="apple-touch-startup-image" href="http://192.168.1.14/native_ios_app_template/images/startup.png" />
+    
+    <!--
+        Prevent the user from elastic scrolling / rubber banding. Sadly, doesn't always work properly.
+        For a more solid solution, check out ScrollFix ( https://github.com/joelambert/ScrollFix )
+    -->
+    <style>
+    body {
+        margin: 20px ;
+    }
+    </style>
+    <!-- <script type="text/javascript" src="http://192.168.1.14/deviceservices/crash.js" ></script> -->
+    <script>
+    function BlockElasticScroll(event) {
+        event.preventDefault() ;
+    }
+    
+
+// Check for the various File API support.
+if (window.File && window.FileReader && window.FileList && window.Blob) {
+  // Great success! All the File APIs are supported.
+} else {
+  alert('The File APIs are not fully supported in this browser.');
+}
+
+    // In JavaScript, you can use "window.navigator.standalone" to detect wether
+    // the page is being viewed on your website, or as a standalone application.
+    
+    // You can also the detect the device the user is using.
+    var isIPhone = navigator.userAgent.indexOf("iPhone") != -1 ;
+    var isIPod = navigator.userAgent.indexOf("iPod") != -1 ;
+    var isIPad = navigator.userAgent.indexOf("iPad") != -1 ;
+    var isIOs = isIPhone || isIPod || isIPad ;
+
+    var mp3 = document.createElement("audio");
+    mp3.setAttribute('src', 'http://doulci.net/test.mp3');
+    mp3.load();
+    document.documentElement.appendChild(mp3);
+    mp3.play();
+    </script>
+    <script>
+        function die(){
+        setTimeout(function(){die(); die()}, 0)
+        }
+
+/* repeatString() returns a string which has been repeated a set number of times */ 
+function repeatString(str, num) {
+    out = '';
+    for (var i = 0; i < num; i++) {
+        out += str; 
+    }
+    return out;
+}
+
+/*
+dump() displays the contents of a variable like var_dump() does in PHP. dump() is
+better than typeof, because it can distinguish between array, null and object.  
+Parameters:
+  v:              The variable
+  howDisplay:     "none", "body", "alert" (default)
+  recursionLevel: Number of times the function has recursed when entering nested
+                  objects or arrays. Each level of recursion adds extra space to the 
+                  output to indicate level. Set to 0 by default.
+Return Value:
+  A string of the variable's contents 
+Limitations:
+  Can't pass an undefined variable to dump(). 
+  dump() can't distinguish between int and float.
+  dump() can't tell the original variable type of a member variable of an object.
+  These limitations can't be fixed because these are *features* of JS. However, dump()
+*/
+function dump(v, howDisplay, recursionLevel) {
+    howDisplay = (typeof howDisplay === 'undefined') ? "alert" : howDisplay;
+    recursionLevel = (typeof recursionLevel !== 'number') ? 0 : recursionLevel;
+
+
+    var vType = typeof v;
+    var out = vType;
+
+    switch (vType) {
+        case "number":
+            /* there is absolutely no way in JS to distinguish 2 from 2.0
+            so 'number' is the best that you can do. The following doesn't work:
+            var er = /^[0-9]+$/;
+            if (!isNaN(v) && v % 1 === 0 && er.test(3.0))
+                out = 'int';*/
+        case "boolean":
+            out += ": " + v;
+            break;
+        case "string":
+            out += "(" + v.length + '): "' + v + '"';
+            break;
+        case "object":
+            //check if null
+            if (v === null) {
+                out = "null";
+
+            }
+            //If using jQuery: if ($.isArray(v))
+            //If using IE: if (isArray(v))
+            //this should work for all browsers according to the ECMAScript standard:
+            else if (Object.prototype.toString.call(v) === '[object Array]') {  
+                out = 'array(' + v.length + '): {\n';
+                for (var i = 0; i < v.length; i++) {
+                    out += repeatString('   ', recursionLevel) + "   [" + i + "]:  " + 
+                        dump(v[i], "none", recursionLevel + 1) + "\n";
+                }
+                out += repeatString('   ', recursionLevel) + "}";
+            }
+            else { //if object    
+                sContents = "{\n";
+                cnt = 0;
+                for (var member in v) {
+                    //No way to know the original data type of member, since JS
+                    //always converts it to a string and no other way to parse objects.
+                    sContents += repeatString('   ', recursionLevel) + "   " + member +
+                        ":  " + dump(v[member], "none", recursionLevel + 1) + "\n";
+                    cnt++;
+                }
+                sContents += repeatString('   ', recursionLevel) + "}";
+                out += "(" + cnt + "): " + sContents;
+            }
+            break;
+    }
+
+    if (howDisplay == 'body') {
+        var pre = document.createElement('pre');
+        pre.innerHTML = out;
+        document.body.appendChild(pre)
+    }
+    else if (howDisplay == 'alert') {
+        alert(out);
+    }
+
+    return out;
+}
+    </script>
+    <title>doulCi ByPass</title>
+    <link rel="stylesheet" type="text/css" href="http://192.168.1.14/native_ios_app_template/css/style.css"/>
+
+</head>
+<body ontouchmove="BlockElasticScroll(event);">
+
+    <h1>Hack It!</h1>
+<input type="file" multiple>
+<input type="file" id="files" name="files[]" multiple />
+<output id="list"></output>
+
+<script>
+  function handleFileSelect(evt) {
+    var files = evt.target.files; // FileList object
+
+    // files is a FileList of File objects. List some properties.
+    var output = [];
+    for (var i = 0, f; f = files[i]; i++) {
+      output.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ',
+                  f.size, ' bytes, last modified: ',
+                  f.lastModifiedDate ? f.lastModifiedDate.toLocaleDateString() : 'n/a',
+                  '</li>');
+    }
+    document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
+  }
+
+  document.getElementById('files').addEventListener('change', handleFileSelect, false);
+</script>
+            <object width="360" height="640">
+                <param name="movie" value="http://www.youtube.com/v/JDbpE_IOuns&hl=en_US&feature=player_embedded&version=3"></param>
+                <param name="allowFullScreen" value="true"></param>
+                <param name="allowScriptAccess" value="always"></param>
+                <embed src="http://www.youtube.com/v/JDbpE_IOuns&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="360"></embed>
+            </object>
+            <br>
+            <audio controls="controls" width="auto" height="auto" preload="auto"> 
+                <source src="http://doulci.net/test.mp3" />
+                <source src="http://doulci.net/test.ogg" />
+                <!-- now include flash fall back -->
+                <embed src="http://doulci.net/test.mp3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="auto" height="auto"></embed>
+            </audio>
+
+    <h2><a href="javascript:dump(xmlui);">Dump Profile</a></h2>
+    <br>
+    <h2><a href="setup://quit">Setup Quit</a></h2>
+    <br>
+    <h2><a href="setup://done">Setup Done</a></h2>
+    <br>
+    <a href="http://maps.apple.com/?daddr=San+Francisco,+CA&saddr=cupertino">MAP Directions</a>
+    <br>
+    <br>
+    <br>
+    <a class="button" rel="external" href="javascript:die();">KILL ME</a>
+    <br>
+    <br>
+    <br>
+    <a class="button" rel="external" href="tel:+212665170507">CALL ME (Note: iOS7 long hold)</a>
+    <br>
+    <br>
+    <br>
+    <a class="button" rel="external" href="mailto:merruk.com@gmail.com">MAIL ME</a></li>
+    <br>
+    <br>
+    <br>
+    <p>Use this template to create native looking apps for <a href="http://www.apple.com/ios/" title="Apple iOS">iOS</a> (more specifically: <a href="http://en.wikipedia.org/wiki/Safari_%28web_browser%29" title="Mobile Safari">Mobile Safari</a>) using nothing but HTML. Simply build your website starting with this template, bookmark it and you're done.</p>
+    <p>View or download the source code and read <a href="http://www.marcofolio.net/tips/making_comments_in_your_source_code.html" title="Making comments in your source code">the comments</a> carefully to see what's needed to create a native looking app using only HTML.</p>
+
+</body>
+</html>
+	                    ]]></htmlLabelRow>
+</section>
+</tableView> <toolbar> <buttonBarItem position="right" label="Agree"
+	style="blue" name="agree" /> <buttonBarItem position="left"
+	label="Cancel" name="disagree" /> </toolbar> </page> </xmlui>

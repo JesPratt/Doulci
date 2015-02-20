@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UserVersionCommandSets</key>
+	<dict>
+		<key>8</key>
+		<dict>
+			<key>SchemaDependencies</key>
+			<dict>
+				<key>artist</key>
+				<array>
+					<string>DropItemArtistTable</string>
+					<string>DropAlbumArtistTable</string>
+					<string>Artist2RenameArtistTable</string>
+					<string>Artist2CreateTable</string>
+					<string>Artist2PopulateTableWithArtistName</string>
+					<string>Artist2CreateTempItemArtistNameIndex</string>
+					<string>Artist2InitializeItemArtistPID</string>
+					<string>Artist2DropTempItemArtistNameIndex</string>
+					<string>Artist2CreateTmpIndexForUpdateTableWithArtworkAlbumPID</string>
+					<string>Artist2UpdateTableWithArtworkAlbumPID_1</string>
+					<string>Artist2UpdateTableWithArtworkAlbumPID_2</string>
+					<string>Artist2DropTmpIndexForUpdateTableWithArtworkAlbumPID</string>
+					<string>DeleteEmptyAlbums</string>
+					<string>DeleteEmptyAlbumArtists</string>
+				</array>
+			</dict>
+			<key>Commands</key>
+			<array>
+				<string>DropUpdateItemInSongsCollectionTrigger</string>
+				<string>DropUpdateItemTitleBlankTrigger</string>
+				<string>DropUpdateItemArtistBlankTrigger</string>
+				<string>DropUpdateItemAlbumArtistBlankTrigger</string>
+				<string>DropUpdateItemAlbumBlankTrigger</string>
+				<string>DropUpdateItemComposerBlankTrigger</string>
+				<string>DropUpdateItemGroupingBlankTrigger</string>
+				<string>DropUpdateItemViewMembershipTrigger</string>
+				<string>DropUpdateItemSortTitleTrigger</string>
+				<string>DropUpdateItemMediaKindTrigger</string>
+				<string>Drop_trigger_avformat_info_insert</string>
+				<string>Drop_trigger_album_insert</string>
+				<string>Drop_trigger_album_update_artist_pid</string>
+				<string>Drop_trigger_album_artist_insert</string>
+				<string>Drop_trigger_item_artist_insert</string>
+				<string>Drop_trigger_composer_insert</string>
+				<string>Drop_trigger_genre_insert</string>
+				<string>DropItemArtistTable</string>
+				<string>DropAlbumArtistTable</string>
+				<string>RemoveNullFromItemArtist</string>
+				<string>RemoveNullFromItemAlbum</string>
+				<string>RemoveNullFromItemTitle</string>
+				<string>RemoveNullFromItemComposer</string>
+				<string>RemoveNullFromAlbumName</string>
+				<string>RemoveNullFromArtistName</string>
+				<string>RemoveNullFromComposerName</string>
+				<string>Artist2RenameArtistTable</string>
+				<string>Artist2CreateTable</string>
+				<string>Artist2PopulateTableWithArtistName</string>
+				<string>Artist2CreateTempItemArtistNameIndex</string>
+				<string>Artist2InitializeItemArtistPID</string>
+				<string>Artist2DropTempItemArtistNameIndex</string>
+				<string>Artist2CreateTmpIndexForUpdateTableWithArtworkAlbumPID</string>
+				<string>Artist2UpdateTableWithArtworkAlbumPID_1</string>
+				<string>Artist2UpdateTableWithArtworkAlbumPID_2</string>
+				<string>Artist2DropTmpIndexForUpdateTableWithArtworkAlbumPID</string>
+				<string>DeleteEmptyAlbums</string>
+				<string>DeleteEmptyAlbumArtists</string>
+				<string>FixupAudibleAudiobooks</string>
+				<string>FixupTVShowsWithoutAlbum</string>
+				<string>MarkMusicVideosAsSongs</string>
+				<string>MarkExplicitGroupingContentRatingAsExplicit</string>
+				<string>PopulateMissingEpisodeIDs</string>
+				<string>AddTitleBlankColumn</string>
+				<string>AddArtistBlankColumn</string>
+				<string>AddAlbumArtistBlankColumn</string>
+				<string>AddAlbumBlankColumn</string>
+				<string>AddComposerBlankColumn</string>
+				<string>AddAlbumArtistSortNameSectionColumn</string>
+				<string>AddItemArtistSortNameSectionColumn</string>
+				<string>AddComposerSortNameSectionColumn</string>
+				<string>AddAlbumSortNameSectionColumn</string>
+				<string>AddGenreGenreSectionColumn</string>
+				<string>AddGenreGenreBlankColumn</string>
+				<string>AddGroupingBlankColumn</string>
+				<string>AddIsAudibleAudioBookColumn</string>
+				<string>AddIsITunesUColumn</string>
+				<string>AddAlbumTableSortNameColumn</string>
+				<string>PopulateAlbumTableSortNameColumn</string>
+				<string>AddTitleSectionOrderColumn</string>
+				<string>AddArtistSectionOrderColumn</string>
+				<string>AddAlbumSectionOrderColumn</string>
+				<string>AddAlbumArtistSectionOrderColumn</string>
+				<string>AddComposerSectionOrderColumn</string>
+				<string>AddGenreSectionOrderColumn</string>
+				<string>AddSeriesNameSectionOrderColumn</string>
+				<string>AddAlbumTableArtistColumn</string>
+				<string>AddAlbumTableSortArtistColumn</string>
+				<string>AddAlbumTableSortArtistSectionColumn</string>
+				<string>AddAlbumArtistPidColumn</string>
+				<string>DenormalizeItemAlbum</string>
+				<string>DropSortMap</string>
+				<string>CreateSortMap</string>
+				<string>InsertIntoSortMap_album_artist_name_order</string>
+				<string>InsertIntoSortMap_genre_map_genre_order</string>
+				<string>InsertIntoSortMap_album_name_order</string>
+				<string>InsertIntoSortMap_item_artist_name_order</string>
+				<string>InsertIntoSortMap_item_genre_order</string>
+				<string>InsertIntoSortMap_item_composer_order</string>
+				<string>InsertIntoSortMap_item_album_order</string>
+				<string>InsertIntoSortMap_item_album_artist_order</string>
+				<string>InsertIntoSortMap_item_series_name_order</string>
+				<string>InsertIntoSortMap_item_title_order</string>
+				<string>InsertIntoSortMap_item_artist_order</string>
+				<string>InsertIntoSortMap_composer_name_order</string>
+				<string>UpdateSortMapNameSection</string>
+				<string>CreateTemporarySoryMapInOrder</string>
+				<string>InsertIntoSortMapInOrder</string>
+				<string>UpdateSortMapNameOrder</string>
+				<string>DropSortMapInOrder</string>
+				<string>UpdateFromSortMapNameOrder_album_artist</string>
+				<string>UpdateFromSortMapNameOrder_genre_map</string>
+				<string>UpdateFromSortMapNameOrder_album</string>
+				<string>UpdateFromSortMapNameOrder_item_artist</string>
+				<string>UpdateFromSortMapNameOrder_item</string>
+				<string>UpdateFromSortMapNameOrder_composer</string>
+				<string>AddInSongsCollectionColumn</string>
+				<string>CreateUpdateItemInSongsCollectionTrigger</string>
+				<string>CreateUpdateItemTitleBlankTrigger</string>
+				<string>CreateUpdateItemArtistBlankTrigger</string>
+				<string>CreateUpdateItemAlbumArtistBlankTrigger</string>
+				<string>CreateUpdateItemAlbumBlankTrigger</string>
+				<string>UpdateItemInSongsCollectionBlankColumns</string>
+				<string>CreateUpdateItemComposerBlankTrigger</string>
+				<string>UpdateGroupingBlankColumn</string>
+				<string>UpdateIsAudibleAudioBookColumn</string>
+				<string>Create_trigger_avformat_info_insert</string>
+				<string>CreateUpdateItemGroupingBlankTrigger</string>
+				<string>NormalizeAlbumStringProperties</string>
+				<string>NormalizeAlbumArtistStringProperties</string>
+				<string>NormalizeItemArtistStringProperties</string>
+				<string>NormalizeComposerStringProperties</string>
+				<string>UpdateAlbumArtistPidColumn</string>
+				<string>CreateUpdateItemViewMembershipTrigger</string>
+				<string>CreateUpdateItemSortTitleTrigger</string>
+				<string>CreateUpdateItemMediaKindTrigger</string>
+				<string>DropExtItemViewMembershipTable</string>
+				<string>CreateExtItemViewMembershipTable</string>
+				<string>PopulateExtItemViewMembershipTable</string>
+				<string>AddAlbumArtistNameBlankColumn</string>
+				<string>UpdateAlbumArtistNameBlankColumn</string>
+				<string>AddItemArtistNameBlankColumn</string>
+				<string>UpdateItemArtistNameBlankColumn</string>
+				<string>AddAlbumNameBlankColumn</string>
+				<string>UpdateAlbumNameBlankColumn</string>
+				<string>AddComposerNameBlankColumn</string>
+				<string>UpdateComposerNameBlankColumn</string>
+				<string>CreateMLDatabaseStatusTable</string>
+				<string>PopulateAlbumTableArtistColumn</string>
+				<string>PopulateAlbumTableSortArtistColumn</string>
+				<string>PopulateAlbumTableSortArtistSectionColumn</string>
+				<string>MatchAllMediaKindsForSmartPlaylists</string>
+				<string>UpdateItemToContainerForEditing</string>
+				<string>DropBackupItemToContainerTable</string>
+				<string>CreateBackupItemToContainerTable</string>
+				<string>PopulateBackupItemToContainerTable</string>
+				<string>Create_trigger_album_artist_insert</string>
+				<string>Create_trigger_album_update_artist_pid</string>
+				<string>Create_trigger_item_artist_insert</string>
+				<string>Create_trigger_composer_insert</string>
+				<string>Create_trigger_genre_insert</string>
+				<string>Create_trigger_album_insert</string>
+				<string>CreateIndex_sort_map_sort_key</string>
+				<string>CreateIndex_ItemDefaultOrdering</string>
+				<string>CreateIndex_ItemAlbumsDefaultOrdering</string>
+				<string>CreateIndex_ArtistsDefaultOrdering</string>
+				<string>CreateIndex_AlbumAllArtistsDefaultOrdering</string>
+				<string>CreateIndex_AlbumArtistsDefaultOrdering</string>
+				<string>CreateIndex_ComposersDefaultOrdering</string>
+				<string>CreateIndex_GenresDefaultOrdering</string>
+				<string>CreateIndex_PodcastEpisodesDefaultOrdering</string>
+				<string>CreateIndex_SongItems_Sections</string>
+				<string>CreateIndex_SongArtists_Sections</string>
+				<string>CreateIndex_SongAlbums_Sections</string>
+				<string>CreateIndex_SongAlbumArtists_Sections</string>
+				<string>CreateIndex_SongGenres_Sections</string>
+				<string>CreateIndex_SongComposers_Sections</string>
+				<string>CreateIndex_ArtistItems_Sections</string>
+				<string>CreateIndex_ArtistAlbums_Sections</string>
+				<string>CreateIndex_GenreItems_Sections</string>
+				<string>CreateIndex_GenreArtists_Sections</string>
+				<string>CreateIndex_GenreAlbums_Sections</string>
+				<string>CreateIndex_GenreArtistAlbums_Sections</string>
+				<string>CreateIndex_PodcastVideosSections</string>
+				<string>CreateIndex_TVShowEpisodes</string>
+				<string>CreateIndex_Rentals</string>
+                <string>CreateIndex_iTunesUExistence</string>
+                <string>CreateIndex_MovieExistence</string>
+                <string>CreateIndex_ItemsInContainer</string>
+                <string>CreateIndex_ItemGeniusID</string>
+                <string>CreateIndex_RemoteUIGenreAlbum</string>
+				<string>Analyze</string>
+				<string>MarkITunesCommandsExecuted_CurrentVersion</string>
+			</array>
+		</dict>
+	</dict>
+	<key>SQLCommands</key>
+	<dict>
+		<key>DropExtItemViewMembershipTable</key>
+		<string>DROP TABLE IF EXISTS ext_item_view_membership;</string>
+		<key>CreateExtItemViewMembershipTable</key>
+		<string>CREATE TABLE ext_item_view_membership (item_pid INTEGER PRIMARY KEY, movie_mbr INTEGER, movie_rental_mbr INTEGER );</string>
+		<key>PopulateExtItemViewMembershipTable</key>
+		<string>INSERT INTO ext_item_view_membership (item_pid, movie_mbr, movie_rental_mbr) SELECT pid, (is_movie AND (NOT is_rental) AND (NOT is_podcast)), (is_movie AND is_rental) FROM item;</string>
+		<key>DropItemArtistTable</key>
+		<string>DROP TABLE IF EXISTS item_artist;</string>
+		<key>DropAlbumArtistTable</key>
+		<string>DROP TABLE IF EXISTS album_artist;</string>
+		<key>Artist2RenameArtistTable</key>
+		<string>ALTER TABLE artist RENAME TO album_artist;</string>
+		<key>Artist2CreateTable</key>
+		<string>CREATE TABLE item_artist (pid INTEGER NOT NULL, kind INTEGER, artwork_status INTEGER, artwork_album_pid INTEGER, name TEXT, name_order INTEGER, sort_name TEXT, PRIMARY KEY (pid));</string>
+		<key>Artist2PopulateTableWithArtistName</key>
+		<string>INSERT INTO item_artist (pid, name, sort_name, name_order) SELECT random(), item.artist, item.sort_artist, item.artist_order FROM item GROUP BY item.artist;</string>
+		<key>Artist2CreateTempItemArtistNameIndex</key>
+		<string>CREATE INDEX TempItemArtistNameIndex ON item_artist (name);</string>
+		<key>Artist2InitializeItemArtistPID</key>
+		<string>UPDATE item SET artist_pid = (SELECT item_artist.pid FROM item_artist WHERE item_artist.name = item.artist);</string>
+		<key>Artist2DropTempItemArtistNameIndex</key>
+		<string>DROP INDEX TempItemArtistNameIndex;</string>
+		<key>Artist2CreateTmpIndexForUpdateTableWithArtworkAlbumPID</key>
+		<string>CREATE INDEX Artist2TmpIndexForUpdateTableWithArtworkAlbumPID ON item (artist_pid);</string>
+		<key>Artist2DropTmpIndexForUpdateTableWithArtworkAlbumPID</key>
+		<string>DROP INDEX Artist2TmpIndexForUpdateTableWithArtworkAlbumPID;</string>
+		<key>Artist2UpdateTableWithArtworkAlbumPID_1</key>
+		<string>UPDATE item_artist SET artwork_album_pid = IFNULL((SELECT item.album_pid FROM item WHERE item.artwork_cache_id &gt; 0 AND item.artist_pid = item_artist.pid ORDER BY item.album_order LIMIT 1), 0);</string>
+		<key>Artist2UpdateTableWithArtworkAlbumPID_2</key>
+		<string>UPDATE item_artist SET artwork_album_pid = IFNULL((SELECT item.album_pid FROM item WHERE item.artwork_cache_id &lt; 0 AND item.artist_pid = item_artist.pid ORDER BY item.album_order LIMIT 1), 0);</string>
+		<key>DeleteEmptyAlbums</key>
+		<string>DELETE FROM album WHERE NOT EXISTS (SELECT item.pid FROM item WHERE item.album_pid = album.pid LIMIT 1);</string>
+		<key>DeleteEmptyAlbumArtists</key>
+		<string>DELETE FROM album_artist WHERE NOT EXISTS (SELECT album.pid FROM album WHERE album.artist_pid = album_artist.pid LIMIT 1);</string>
+		<key>DenormalizeItemAlbum</key>
+		<string>UPDATE item SET album = (SELECT album.name FROM album WHERE item.album_pid = album.pid), sort_album = (SELECT album.sort_name FROM album WHERE item.album_pid = album.pid);</string>
+		<key>MarkMusicVideosAsSongs</key>
+		<string>UPDATE item SET is_song = 1 WHERE is_music_video = 1;</string>
+		<key>MarkExplicitGroupingContentRatingAsExplicit</key>
+		<string>UPDATE item SET content_rating = 1, content_rating_level = 1000 WHERE grouping LIKE &apos;explicit&apos;;</string>
+		<key>PopulateMissingEpisodeIDs</key>
+		<string>UPDATE video_info SET episode_id = (SELECT track_number FROM item WHERE pid=item_pid), episode_sort_id = IFNULL((SELECT track_number FROM item WHERE pid=item_pid), 0) WHERE (episode_id IS NULL) AND (SELECT is_tv_show FROM item WHERE pid=item_pid) = 1;</string>
+		<key>RemoveNullFromItemArtist</key>
+		<string>UPDATE item SET artist = &apos;&apos; WHERE artist IS NULL;</string>
+		<key>RemoveNullFromItemAlbum</key>
+		<string>UPDATE item SET album = &apos;&apos; WHERE album IS NULL;</string>
+		<key>RemoveNullFromItemTitle</key>
+		<string>UPDATE item SET title = &apos;&apos; WHERE title IS NULL;</string>
+		<key>RemoveNullFromItemComposer</key>
+		<string>UPDATE item SET composer = &apos;&apos; WHERE composer IS NULL;</string>
+		<key>RemoveNullFromAlbumName</key>
+		<string>UPDATE album SET name = &apos;&apos; WHERE name IS NULL;</string>
+		<key>RemoveNullFromArtistName</key>
+		<string>UPDATE item_artist SET name = &apos;&apos; WHERE name IS NULL;</string>
+		<key>RemoveNullFromComposerName</key>
+		<string>UPDATE composer SET name = &apos;&apos; WHERE name IS NULL;</string>
+		<key>FixupAudibleAudiobooks</key>
+		<string>UPDATE item SET album = (SELECT title FROM item i2 WHERE i2.album_pid = item.album_pid ORDER BY title_order LIMIT 1), sort_album = (SELECT sort_title FROM item i3 WHERE i3.album_pid = item.album_pid ORDER BY title_order LIMIT 1) WHERE (album = &apos;Audible&apos; OR ALBUM = &apos;&apos; OR ALBUM IS NULL) AND (media_kind&amp;8) AND (media_kind &amp; 32768)==0 AND is_rental==0 AND ((SELECT audio_format FROM avformat_info WHERE item_pid = item.pid) &gt;= 401) AND ((SELECT audio_format FROM avformat_info WHERE item_pid = item.pid) &lt;= 406) AND ((SELECT sub_id FROM avformat_info WHERE item_pid = item.pid) == 0);</string>
+		<key>FixupTVShowsWithoutAlbum</key>
+		<string>UPDATE item SET album = IFNULL((SELECT season_number FROM video_info WHERE video_info.item_pid = item.pid),	 &apos;&apos;) WHERE (album IS NULL OR album =	&apos;&apos;) AND is_tv_show = 1;</string>
+		<key>CreateExtrasChapterTable</key>
+		<string>CREATE TABLE IF NOT EXISTS extras.chapter (item_pid INTEGER NOT NULL, data BLOB, PRIMARY KEY (item_pid));</string>
+		<key>AddAlbumArtistPidColumn</key>
+		<string>ALTER TABLE item ADD COLUMN album_artist_pid INTEGER NOT NULL DEFAULT 0;</string>
+		<key>UpdateAlbumArtistPidColumn</key>
+		<string>UPDATE item SET album_artist_pid = (SELECT album_artist.pid FROM album_artist JOIN album ON album.artist_pid = album_artist.pid WHERE album.pid = item.album_pid);</string>
+		<key>AddInSongsCollectionColumn</key>
+		<string>ALTER TABLE item ADD COLUMN in_songs_collection INTEGER NOT NULL DEFAULT 0;</string>
+		<key>DropUpdateItemInSongsCollectionTrigger</key>
+		<string>DROP TRIGGER IF EXISTS update_item_in_songs_collection</string>
+		<key>CreateUpdateItemInSongsCollectionTrigger</key>
+		<string>CREATE TRIGGER IF NOT EXISTS update_item_in_songs_collection AFTER UPDATE OF media_kind, is_rental ON item BEGIN UPDATE item SET in_songs_collection = ((item.media_kind&amp;1) AND ((item.media_kind&amp;2)=0 AND item.is_rental=0)) WHERE item.pid = new.pid; END;</string>
+		<key>AddTitleBlankColumn</key>
+		<string>ALTER TABLE item ADD COLUMN title_blank INTEGER NOT NULL DEFAULT 0;</string>
+		<key>UpdateItemInSongsCollectionBlankColumns</key>
+		<string>UPDATE item SET title_blank = (title = &apos;&apos; OR title IS NULL), artist_blank = (artist = &apos;&apos; OR artist IS NULL), composer_blank = (composer = &apos;&apos; OR composer IS NULL), album_blank = (album = &apos;&apos; OR album IS NULL), album_artist_blank = (album_artist = &apos;&apos; OR album_artist IS NULL), in_songs_collection = ((media_kind&amp;33) AND ((media_kind&amp;2)=0 AND is_rental=0));</string>
+		<key>DropUpdateItemTitleBlankTrigger</key>
+		<string>DROP TRIGGER IF EXISTS update_item_title_blank;</string>
+		<key>CreateUpdateItemTitleBlankTrigger</key>
+		<string>CREATE TRIGGER IF NOT EXISTS update_item_title_blank AFTER UPDATE OF title ON item BEGIN UPDATE item SET title_blank = (title = &apos;&apos; OR title IS NULL) WHERE item.pid = new.pid; END;</string>
+		<key>AddArtistBlankColumn</key>
+		<string>ALTER TABLE item ADD COLUMN artist_blank INTEGER NOT NULL DEFAULT 0;</string>
+		<key>DropUpdateItemArtistBlankTrigger</key>
+		<string>DROP TRIGGER IF EXISTS update_item_artist_blank;</string>
+		<key>CreateUpdateItemArtistBlankTrigger</key>
+		<string>CREATE TRIGGER IF NOT EXISTS update_item_artist_blank AFTER UPDATE OF item_artist ON item BEGIN UPDATE item SET artist_blank = (artist = &apos;&apos; OR artist IS NULL) WHERE item.pid = new.pid; END;</string>
+		<key>AddAlbumArtistBlankColumn</key>
+		<string>ALTER TABLE item ADD COLUMN album_artist_blank INTEGER NOT NULL DEFAULT 0;</string>
+		<key>DropUpdateItemAlbumArtistBlankTrigger</key>
+		<string>DROP TRIGGER IF EXISTS update_item_album_artist_blank;</string>
+		<key>CreateUpdateItemAlbumArtistBlankTrigger</key>
+		<string>CREATE TRIGGER IF NOT EXISTS update_item_album_artist_blank AFTER UPDATE OF album_artist ON item BEGIN UPDATE item SET album_artist_blank = (album_artist = &apos;&apos; OR album_artist IS NULL) WHERE item.pid = new.pid; END;</string>
+		<key>AddAlbumBlankColumn</key>
+		<string>ALTER TABLE item ADD COLUMN album_blank INTEGER NOT NULL DEFAULT 0;</string>
+		<key>DropUpdateItemAlbumBlankTrigger</key>
+		<string>DROP TRIGGER IF EXISTS update_item_album_blank;</string>
+		<key>CreateUpdateItemAlbumBlankTrigger</key>
+		<string>CREATE TRIGGER IF NOT EXISTS update_item_album_blank AFTER UPDATE OF album ON item BEGIN UPDATE item SET album_blank = (album = &apos;&apos; OR album IS NULL) WHERE item.pid = new.pid; END;</string>
+		<key>AddComposerBlankColumn</key>
+		<string>ALTER TABLE item ADD COLUMN composer_blank INTEGER NOT NULL DEFAULT 0;</string>
+		<key>DropUpdateItemComposerBlankTrigger</key>
+		<string>DROP TRIGGER IF EXISTS update_item_composer_blank;</string>
+		<key>CreateUpdateItemComposerBlankTrigger</key>
+		<string>CREATE TRIGGER IF NOT EXISTS update_item_composer_blank AFTER UPDATE OF composer ON item BEGIN UPDATE item SET composer_blank = (composer = &apos;&apos; OR composer IS NULL) WHERE item.pid = new.pid; END;</string>
+		<key>AddGroupingBlankColumn</key>
+		<string>ALTER TABLE item ADD COLUMN grouping_blank INTEGER NOT NULL DEFAULT 0;</string>
+		<key>UpdateGroupingBlankColumn</key>
+		<string>UPDATE item SET grouping_blank = (grouping = &apos;&apos; OR grouping IS NULL);</string>
+		<key>AddGenreGenreBlankColumn</key>
+		<string>ALTER TABLE genre_map ADD COLUMN genre_blank INTEGER NOT NULL DEFAULT 0;</string>
+		<key>DropUpdateItemGroupingBlankTrigger</key>
+		<string>DROP TRIGGER IF EXISTS update_item_grouping_blank;</string>
+		<key>CreateUpdateItemGroupingBlankTrigger</key>
+		<string>CREATE TRIGGER IF NOT EXISTS update_item_grouping_blank AFTER UPDATE OF grouping ON item BEGIN UPDATE item SET grouping_blank = (grouping = &apos;&apos; OR grouping IS NULL) WHERE item.pid = new.pid; END;</string>
+		<key>NormalizeAlbumStringProperties</key>
+		<string>UPDATE album SET name = IFNULL(name, &apos;&apos;);	 -- do not update sort_name, because we create that ourselves</string>
+		<key>NormalizeAlbumArtistStringProperties</key>
+		<string>UPDATE album_artist SET name = IFNULL(name, &apos;&apos;);</string>
+		<key>NormalizeItemArtistStringProperties</key>
+		<string>UPDATE item_artist SET name = IFNULL(name, &apos;&apos;);</string>
+		<key>NormalizeComposerStringProperties</key>
+		<string>UPDATE composer SET name = IFNULL(name, &apos;&apos;);</string>
+		<key>AddTitleSectionOrderColumn</key>
+		<string>ALTER TABLE item ADD COLUMN title_order_section INTEGER;</string>
+		<key>AddArtistSectionOrderColumn</key>
+		<string>ALTER TABLE item ADD COLUMN artist_order_section INTEGER;</string>
+		<key>AddAlbumSectionOrderColumn</key>
+		<string>ALTER TABLE item ADD COLUMN album_order_section INTEGER;</string>
+		<key>AddAlbumArtistSectionOrderColumn</key>
+		<string>ALTER TABLE item ADD COLUMN album_artist_order_section INTEGER;</string>
+		<key>AddComposerSectionOrderColumn</key>
+		<string>ALTER TABLE item ADD COLUMN composer_order_section INTEGER;</string>
+		<key>AddGenreSectionOrderColumn</key>
+		<string>ALTER TABLE item ADD COLUMN genre_order_section INTEGER;</string>
+		<key>AddSeriesNameSectionOrderColumn</key>
+		<string>ALTER TABLE item ADD COLUMN series_name_order_section INTEGER;</string>
+		<key>AddAlbumTableSortNameColumn</key>
+		<string>ALTER TABLE album ADD COLUMN sort_name TEXT;</string>
+		<key>AddAlbumTableArtistColumn</key>
+		<string>ALTER TABLE album ADD COLUMN artist TEXT NOT NULL DEFAULT &apos;&apos;;</string>
+		<key>PopulateAlbumTableArtistColumn</key>
+		<string>UPDATE album SET artist=IFNULL((SELECT name FROM album_artist WHERE album_artist.pid = album.artist_pid), &apos;&apos;);</string>
+		<key>AddAlbumTableSortArtistColumn</key>
+		<string>ALTER TABLE album ADD COLUMN sort_artist TEXT;</string>
+		<key>PopulateAlbumTableSortArtistColumn</key>
+		<string>UPDATE album SET sort_artist=(SELECT sort_name FROM album_artist WHERE album_artist.pid = album.artist_pid);</string>
+		<key>AddAlbumTableSortArtistSectionColumn</key>
+		<string>ALTER TABLE album ADD COLUMN artist_order_section INTEGER;</string>
+		<key>PopulateAlbumTableSortArtistSectionColumn</key>
+		<string>UPDATE album SET artist_order_section=IFNULL((SELECT name_order_section FROM album_artist WHERE album_artist.pid = album.artist_pid), 0);</string>
+		<key>PopulateAlbumTableSortNameColumn</key>
+		<string>UPDATE album SET sort_name=(SELECT sort_album FROM item WHERE album.pid=item.album_pid AND sort_album NOT NULL LIMIT 1);</string>
+		<key>AddIsAudibleAudioBookColumn</key>
+		<string>ALTER TABLE item ADD COLUMN is_audible_audio_book NOT NULL DEFAULT 0;</string>
+		<key>AddIsITunesUColumn</key>
+		<string>ALTER TABLE item ADD COLUMN is_itunes_u NOT NULL DEFAULT 0;</string>
+		<key>UpdateIsAudibleAudioBookColumn</key>
+		<string>UPDATE item SET is_audible_audio_book = IFNULL(((SELECT audio_format FROM avformat_info WHERE item_pid = item.pid) BETWEEN 401 AND 406) AND ((SELECT sub_id FROM avformat_info WHERE item_pid = item.pid) = 0), 0);</string>
+		<key>Create_trigger_avformat_info_insert</key>
+		<string> CREATE TRIGGER IF NOT EXISTS trigger_avformat_info_insert AFTER INSERT ON avformat_info
+BEGIN
+UPDATE item SET
+  is_audible_audio_book = IFNULL((new.audio_format BETWEEN 401 AND 406) AND (new.sub_id = 0), 0)
+WHERE item.pid = new.item_pid;
+UPDATE item SET
+  media_kind = CASE (is_audible_audio_book=1) WHEN 1 THEN 8 ELSE media_kind END
+WHERE item.pid = new.item_pid;
+END;</string>
+		<key>Drop_trigger_avformat_info_insert</key>
+		<string>DROP TRIGGER IF EXISTS trigger_avformat_info_insert;</string>
+		<key>DropUpdateItemViewMembershipTrigger</key>
+		<string>DROP TRIGGER IF EXISTS update_is_kind_of_field;</string>
+		<key>CreateUpdateItemViewMembershipTrigger</key>
+		<string>CREATE TRIGGER IF NOT EXISTS update_is_kind_of_field AFTER UPDATE OF is_song, is_audio_book, is_music_video, is_movie, is_tv_show, is_ringtone, is_podcast, is_rental ON item BEGIN
+INSERT OR REPLACE INTO ext_item_view_membership(item_pid, movie_mbr, movie_rental_mbr) VALUES(new.pid, (new.is_movie AND (NOT new.is_rental) AND (NOT new.is_podcast)), (new.is_movie AND new.is_rental));
+END;</string>
+		<key>UpdateItemToContainerForEditing</key>
+		<string>UPDATE item_to_container SET physical_order = (CASE WHEN ((-4294967296 &lt; physical_order) AND (physical_order &lt; 4294967296)) THEN (physical_order * 4294967296) ELSE physical_order END);</string>
+		<key>CreateBackupItemToContainerTable</key>
+		<string>CREATE TABLE item_to_container_orig (item_pid INTEGER, container_pid INTEGER, physical_order INTEGER, UNIQUE (item_pid, container_pid, physical_order));</string>
+		<key>DropBackupItemToContainerTable</key>
+		<string>DROP TABLE IF EXISTS item_to_container_orig</string>
+		<key>PopulateBackupItemToContainerTable</key>
+		<string>INSERT INTO item_to_container_orig SELECT item_pid, container_pid, physical_order FROM item_to_container;</string>
+		<key>MatchAllMediaKindsForSmartPlaylists</key>
+		<string>UPDATE container SET media_kinds = 2147483647 WHERE smart_is_dynamic = 1;</string>
+		<key>DropUpdateItemSortTitleTrigger</key>
+		<string>DROP TRIGGER IF EXISTS update_item_sort_title;</string>
+		<key>CreateUpdateItemSortTitleTrigger</key>
+		<string>CREATE TRIGGER IF NOT EXISTS update_item_sort_title AFTER UPDATE OF sort_title ON item BEGIN
+		UPDATE item SET
+			title_order_section = iPhoneSortSection(iPhoneSortKey(sort_title))
+			WHERE item.pid = NEW.pid;
+END;</string>
+		<key>DropUpdateItemMediaKindTrigger</key>
+		<string>DROP TRIGGER IF EXISTS update_item_media_kind;</string>
+		<key>CreateUpdateItemMediaKindTrigger</key>
+		<string>CREATE TRIGGER IF NOT EXISTS update_item_media_kind AFTER UPDATE OF media_kind ON item BEGIN
+UPDATE item SET is_song=((new.media_kind&amp;1)!=0), is_audio_book=((new.media_kind&amp;8)!=0), is_music_video=((new.media_kind&amp;32)!=0), is_movie=((new.media_kind&amp;2)!=0), is_tv_show=((new.media_kind&amp;64)!=0), is_ringtone=((new.media_kind&amp;16384)!=0), is_podcast=((new.media_kind&amp;4)!=0), is_rental=((new.media_kind&amp;32768)!=0) WHERE pid = new.pid;
+END;</string>
+		<key>CreateIndex_sort_map_sort_key</key>
+		<string>CREATE INDEX sort_map_sort_key ON sort_map (sort_key);</string>
+		<key>AddAlbumArtistNameBlankColumn</key>
+		<string>ALTER TABLE album_artist ADD COLUMN name_blank INTEGER NOT NULL DEFAULT 0;</string>
+		<key>UpdateAlbumArtistNameBlankColumn</key>
+		<string>UPDATE album_artist SET name_blank = 1 WHERE (name = &apos;&apos; OR name IS NULL);</string>
+		<key>AddItemArtistNameBlankColumn</key>
+		<string>ALTER TABLE item_artist ADD COLUMN name_blank INTEGER NOT NULL DEFAULT 0;</string>
+		<key>UpdateItemArtistNameBlankColumn</key>
+		<string>UPDATE item_artist SET name_blank = 1 WHERE (name = &apos;&apos; OR name IS NULL);</string>
+		<key>AddComposerNameBlankColumn</key>
+		<string>ALTER TABLE composer ADD COLUMN name_blank INTEGER NOT NULL DEFAULT 0;</string>
+		<key>UpdateComposerNameBlankColumn</key>
+		<string>UPDATE composer SET name_blank	= 1 WHERE (name = &apos;&apos; OR name IS NULL);</string>
+		<key>AddAlbumNameBlankColumn</key>
+		<string>ALTER TABLE album ADD COLUMN name_blank INTEGER NOT NULL DEFAULT 0;</string>
+		<key>UpdateAlbumNameBlankColumn</key>
+		<string>UPDATE album SET name_blank	 = 1 WHERE (name = &apos;&apos; OR name IS NULL);</string>
+		<key>AddAlbumArtistSortNameSectionColumn</key>
+		<string>ALTER TABLE album_artist ADD COLUMN name_order_section INTEGER;</string>
+		<key>AddItemArtistSortNameSectionColumn</key>
+		<string>ALTER TABLE item_artist ADD COLUMN name_order_section INTEGER;</string>
+		<key>AddComposerSortNameSectionColumn</key>
+		<string>ALTER TABLE composer ADD COLUMN name_order_section INTEGER;</string>
+		<key>AddAlbumSortNameSectionColumn</key>
+		<string>ALTER TABLE album ADD COLUMN name_order_section INTEGER;</string>
+		<key>AddGenreGenreSectionColumn</key>
+		<string>ALTER TABLE genre_map ADD COLUMN genre_order_section INTEGER;</string>
+		<key>Analyze</key>
+		<string>ANALYZE;</string>
+		<key>CreateMLDatabaseStatusTable</key>
+		<string>CREATE TABLE IF NOT EXISTS ml_database_status (key TEXT, value TEXT, PRIMARY KEY(key));</string>
+		<key>Drop_trigger_album_insert</key>
+		<string>DROP TRIGGER IF EXISTS trigger_album_insert;</string>
+		<key>Create_trigger_album_insert</key>
+		<string>CREATE TRIGGER trigger_album_insert AFTER INSERT ON album FOR EACH ROW
+	BEGIN
+		UPDATE album SET
+			name_blank = (name = &apos;&apos; OR name IS NULL),
+			name_order = (SELECT name_order FROM sort_map WHERE name = IFNULL(new.sort_name, new.name)),
+			name_order_section =  (SELECT name_section FROM sort_map WHERE name = IFNULL(new.sort_name, new.name)),
+			artist = IFNULL((SELECT name FROM album_artist WHERE album_artist.pid = album.artist_pid), &apos;&apos;),
+			sort_artist = (SELECT sort_name FROM album_artist WHERE album_artist.pid = album.artist_pid),
+			artist_order_section = IFNULL((SELECT name_order_section FROM album_artist WHERE album_artist.pid = album.artist_pid), &apos;&apos;)
+			WHERE album.pid = NEW.pid;
+	END;</string>
+		<key>Drop_trigger_album_update_artist_pid</key>
+		<string>DROP TRIGGER IF EXISTS trigger_album_update_artist_pid;</string>
+		<key>Create_trigger_album_update_artist_pid</key>
+		<string>CREATE TRIGGER trigger_album_update_artist_pid AFTER UPDATE OF artist_pid ON album FOR EACH ROW
+	BEGIN
+		UPDATE album SET
+			artist = IFNULL((SELECT name FROM album_artist WHERE album_artist.pid = album.artist_pid), &apos;&apos;),
+			sort_artist = (SELECT sort_name FROM album_artist WHERE album_artist.pid = album.artist_pid),
+			artist_order_section = IFNULL((SELECT name_order_section FROM album_artist WHERE album_artist.pid = album.artist_pid), &apos;&apos;)
+			WHERE album.pid = NEW.pid;
+	END;</string>
+		<key>Drop_trigger_album_artist_insert</key>
+		<string>DROP TRIGGER IF EXISTS trigger_album_artist_insert;</string>
+		<key>Create_trigger_album_artist_insert</key>
+		<string>CREATE TRIGGER trigger_album_artist_insert AFTER INSERT ON album_artist FOR EACH ROW
+	BEGIN
+		UPDATE album_artist SET
+			name_blank = (name = &apos;&apos; OR name IS NULL),
+			name_order = (SELECT name_order FROM sort_map WHERE name = IFNULL(new.sort_name, new.name)),
+			name_order_section =  (SELECT name_section FROM sort_map WHERE name = IFNULL(new.sort_name, new.name))
+			WHERE album_artist.pid = NEW.pid;
+	END;</string>
+		<key>Drop_trigger_item_artist_insert</key>
+		<string>DROP TRIGGER IF EXISTS trigger_item_artist_insert;</string>
+		<key>Create_trigger_item_artist_insert</key>
+		<string>CREATE TRIGGER trigger_item_artist_insert AFTER INSERT ON item_artist FOR EACH ROW
+	BEGIN
+		UPDATE item_artist SET
+			name_blank = (name = &apos;&apos; OR name IS NULL),
+			name_order = (SELECT name_order FROM sort_map WHERE name = IFNULL(new.sort_name, new.name)),
+			name_order_section =  (SELECT name_section FROM sort_map WHERE name = IFNULL(new.sort_name, new.name))
+			WHERE item_artist.pid = NEW.pid;
+	END;</string>
+		<key>Drop_trigger_composer_insert</key>
+		<string>DROP TRIGGER IF EXISTS trigger_composer_insert;</string>
+		<key>Create_trigger_composer_insert</key>
+		<string>CREATE TRIGGER trigger_composer_insert AFTER INSERT ON composer FOR EACH ROW
+	BEGIN
+		UPDATE composer SET
+			name_blank = (name = &apos;&apos; OR name IS NULL),
+			name_order_section = iPhoneSortSection(iPhoneSortKey(sort_name))
+			WHERE composer.pid = NEW.pid;
+	END;</string>
+		<key>Drop_trigger_genre_insert</key>
+		<string>DROP TRIGGER IF EXISTS trigger_genre_insert;</string>
+		<key>Create_trigger_genre_insert</key>
+		<string>CREATE TRIGGER trigger_genre_insert AFTER INSERT ON genre_map FOR EACH ROW
+	BEGIN
+		UPDATE genre_map SET
+			genre_blank = (genre = &apos;&apos; OR genre IS NULL),
+			genre_order_section = iPhoneSortSection(iPhoneSortKey(genre))
+			WHERE genre_map.id = NEW.id;
+	END;</string>
+		<key>CreateSortMap</key>
+		<string>CREATE TABLE sort_map (name TEXT NOT NULL, name_order INTEGER, name_section INTEGER, sort_key BLOB NOT NULL, UNIQUE (name), UNIQUE (name_order));</string>
+		<key>DropSortMap</key>
+		<string>DROP TABLE IF EXISTS sort_map;</string>
+		<key>CreateTemporarySoryMapInOrder</key>
+		<string>CREATE TEMPORARY TABLE sort_map_in_order (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, UNIQUE (name));</string>
+		<key>DropSortMapInOrder</key>
+		<string>DROP TABLE sort_map_in_order;</string>
+		<key>InsertIntoSortMapInOrder</key>
+		<string>INSERT INTO sort_map_in_order (name) SELECT name FROM sort_map ORDER BY sort_key;</string>
+		<key>InsertIntoSortMap_album_artist_name_order</key>
+		<string>INSERT OR IGNORE INTO sort_map (name, sort_key) SELECT IFNULL(album_artist.sort_name, album_artist.name) AS name, iPhoneSortKey(IFNULL(album_artist.sort_name, album_artist.name)) AS sort_key FROM album_artist;</string>
+		<key>InsertIntoSortMap_album_name_order</key>
+		<string>INSERT OR IGNORE INTO sort_map (name, sort_key) SELECT (CASE WHEN album.season_number &gt; 0 THEN album.season_number ELSE IFNULL(album.sort_name, album.name) END) AS name, iPhoneSortKey((CASE WHEN album.season_number &gt; 0 THEN album.season_number ELSE IFNULL(album.sort_name, album.name) END)) AS sort_key FROM album;</string>
+		<key>InsertIntoSortMap_composer_name_order</key>
+		<string>INSERT OR IGNORE INTO sort_map (name, sort_key) SELECT IFNULL(composer.sort_name, composer.name) AS name, iPhoneSortKey(IFNULL(composer.sort_name, composer.name)) AS sort_key FROM composer;</string>
+		<key>InsertIntoSortMap_genre_map_genre_order</key>
+		<string>INSERT OR IGNORE INTO sort_map (name, sort_key) SELECT genre_map.genre AS name, iPhoneSortKey(genre_map.genre) AS sort_key FROM genre_map;</string>
+		<key>InsertIntoSortMap_item_album_artist_order</key>
+		<string>INSERT OR IGNORE INTO sort_map (name, sort_key) SELECT (SELECT IFNULL(album_artist.sort_name, album_artist.name) FROM album JOIN album_artist ON album_artist.pid = album.artist_pid WHERE album_artist.pid = album.artist_pid AND item.album_pid = album.pid) AS name, iPhoneSortKey((SELECT IFNULL(album_artist.sort_name, album_artist.name) FROM album JOIN album_artist ON album_artist.pid = album.artist_pid WHERE album_artist.pid = album.artist_pid AND item.album_pid = album.pid)) AS sort_key FROM item;</string>
+		<key>InsertIntoSortMap_item_album_order</key>
+		<string>INSERT OR IGNORE INTO sort_map (name, sort_key) SELECT (SELECT (CASE WHEN album.season_number &gt; 0 THEN album.season_number ELSE IFNULL(album.sort_name, album.name) END) FROM album WHERE album.pid = item.album_pid) AS name, iPhoneSortKey((SELECT (CASE WHEN album.season_number &gt; 0 THEN album.season_number ELSE IFNULL(album.sort_name, album.name) END) FROM album WHERE album.pid = item.album_pid)) AS sort_key FROM item;</string>
+		<key>InsertIntoSortMap_item_artist_name_order</key>
+		<string>INSERT OR IGNORE INTO sort_map (name, sort_key) SELECT IFNULL(item_artist.sort_name, item_artist.name) AS name, iPhoneSortKey(IFNULL(item_artist.sort_name, item_artist.name)) AS sort_key FROM item_artist;</string>
+		<key>InsertIntoSortMap_item_artist_order</key>
+		<string>INSERT OR IGNORE INTO sort_map (name, sort_key) SELECT (SELECT IFNULL(item_artist.sort_name, item_artist.name) FROM item_artist WHERE item_artist.pid = item.artist_pid) AS name, iPhoneSortKey((SELECT IFNULL(item_artist.sort_name, item_artist.name) FROM item_artist WHERE item_artist.pid = item.artist_pid)) AS sort_key FROM item;</string>
+		<key>InsertIntoSortMap_item_composer_order</key>
+		<string>INSERT OR IGNORE INTO sort_map (name, sort_key) SELECT (SELECT IFNULL(composer.sort_name, composer.name) FROM composer WHERE composer.pid = item.composer_pid) AS name, iPhoneSortKey((SELECT IFNULL(composer.sort_name, composer.name) FROM composer WHERE composer.pid = item.composer_pid)) AS sort_key FROM item;</string>
+		<key>InsertIntoSortMap_item_genre_order</key>
+		<string>INSERT OR IGNORE INTO sort_map (name, sort_key) SELECT (SELECT genre_map.genre FROM genre_map WHERE genre_map.id = item.genre_id) AS name, iPhoneSortKey((SELECT genre_map.genre FROM genre_map WHERE genre_map.id = item.genre_id)) AS sort_key FROM item;</string>
+		<key>InsertIntoSortMap_item_series_name_order</key>
+		<string>INSERT OR IGNORE INTO sort_map (name, sort_key) SELECT (SELECT IFNULL(IFNULL(video_info.sort_series_name, video_info.series_name), IFNULL(item.sort_artist, item.artist)) FROM video_info WHERE video_info.item_pid = item.pid) AS name, iPhoneSortKey((SELECT IFNULL(IFNULL(video_info.sort_series_name, video_info.series_name), IFNULL(item.sort_artist, item.artist)) FROM video_info WHERE video_info.item_pid = item.pid)) AS sort_key FROM item;</string>
+		<key>InsertIntoSortMap_item_title_order</key>
+		<string>INSERT OR IGNORE INTO sort_map (name, sort_key) SELECT IFNULL(item.sort_title, item.title) AS name, iPhoneSortKey(IFNULL(item.sort_title, item.title)) AS sort_key FROM item;</string>
+		<key>UpdateFromSortMapNameOrder_album</key>
+		<string>UPDATE album SET name_order = (SELECT sort_map.name_order FROM sort_map WHERE sort_map.name = (CASE WHEN album.season_number &gt; 0 THEN album.season_number ELSE IFNULL(album.sort_name, album.name) END)), name_order_section = (SELECT sort_map.name_section FROM sort_map WHERE sort_map.name = (CASE WHEN album.season_number &gt; 0 THEN album.season_number ELSE IFNULL(album.sort_name, album.name) END));</string>
+		<key>UpdateFromSortMapNameOrder_album_artist</key>
+		<string>UPDATE album_artist SET name_order = (SELECT sort_map.name_order FROM sort_map WHERE sort_map.name = IFNULL(album_artist.sort_name, album_artist.name)), name_order_section = (SELECT sort_map.name_section FROM sort_map WHERE sort_map.name = IFNULL(album_artist.sort_name, album_artist.name));</string>
+		<key>UpdateFromSortMapNameOrder_composer</key>
+		<string>UPDATE composer SET name_order = (SELECT sort_map.name_order FROM sort_map WHERE sort_map.name = IFNULL(composer.sort_name, composer.name)), name_order_section = (SELECT sort_map.name_section FROM sort_map WHERE sort_map.name = IFNULL(composer.sort_name, composer.name));</string>
+		<key>UpdateFromSortMapNameOrder_genre_map</key>
+		<string>UPDATE genre_map SET genre_order = (SELECT sort_map.name_order FROM sort_map WHERE sort_map.name = genre_map.genre), genre_order_section = (SELECT sort_map.name_section FROM sort_map WHERE sort_map.name = genre_map.genre);</string>
+		<key>UpdateFromSortMapNameOrder_item</key>
+		<string>UPDATE item SET genre_order = (SELECT sort_map.name_order FROM sort_map WHERE sort_map.name = (SELECT genre_map.genre FROM genre_map WHERE genre_map.id = item.genre_id)), genre_order_section = (SELECT sort_map.name_section FROM sort_map WHERE sort_map.name = (SELECT genre_map.genre FROM genre_map WHERE genre_map.id = item.genre_id)), composer_order = (SELECT sort_map.name_order FROM sort_map WHERE sort_map.name = (SELECT IFNULL(composer.sort_name, composer.name) FROM composer WHERE composer.pid = item.composer_pid)), composer_order_section = (SELECT sort_map.name_section FROM sort_map WHERE sort_map.name = (SELECT IFNULL(composer.sort_name, composer.name) FROM composer WHERE composer.pid = item.composer_pid)), album_order = (SELECT sort_map.name_order FROM sort_map WHERE sort_map.name = (SELECT (CASE WHEN album.season_number &gt; 0 THEN album.season_number ELSE IFNULL(album.sort_name, album.name) END) FROM album WHERE album.pid = item.album_pid)), album_order_section = (SELECT sort_map.name_section FROM sort_map WHERE sort_map.name = (SELECT (CASE WHEN album.season_number &gt; 0 THEN album.season_number ELSE IFNULL(album.sort_name, album.name) END) FROM album WHERE album.pid = item.album_pid)), album_artist_order = (SELECT sort_map.name_order FROM sort_map WHERE sort_map.name = (SELECT IFNULL(album_artist.sort_name, album_artist.name) FROM album JOIN album_artist ON album_artist.pid = album.artist_pid WHERE album_artist.pid = album.artist_pid AND item.album_pid = album.pid)), album_artist_order_section = (SELECT sort_map.name_section FROM sort_map WHERE sort_map.name = (SELECT IFNULL(album_artist.sort_name, album_artist.name) FROM album JOIN album_artist ON album_artist.pid = album.artist_pid WHERE album_artist.pid = album.artist_pid AND item.album_pid = album.pid)), series_name_order = (SELECT sort_map.name_order FROM sort_map WHERE sort_map.name = (SELECT IFNULL(IFNULL(video_info.sort_series_name, video_info.series_name), IFNULL(item.sort_artist, item.artist)) FROM video_info WHERE video_info.item_pid = item.pid)), series_name_order_section = (SELECT sort_map.name_section FROM sort_map WHERE sort_map.name = (SELECT IFNULL(IFNULL(video_info.sort_series_name, video_info.series_name), IFNULL(item.sort_artist, item.artist)) FROM video_info WHERE video_info.item_pid = item.pid)), title_order = (SELECT sort_map.name_order FROM sort_map WHERE sort_map.name = IFNULL(item.sort_title, item.title)), title_order_section = (SELECT sort_map.name_section FROM sort_map WHERE sort_map.name = IFNULL(item.sort_title, item.title)), artist_order = (SELECT sort_map.name_order FROM sort_map WHERE sort_map.name = (SELECT IFNULL(item_artist.sort_name, item_artist.name) FROM item_artist WHERE item_artist.pid = item.artist_pid)), artist_order_section = (SELECT sort_map.name_section FROM sort_map WHERE sort_map.name = (SELECT IFNULL(item_artist.sort_name, item_artist.name) FROM item_artist WHERE item_artist.pid = item.artist_pid));</string>
+		<key>UpdateFromSortMapNameOrder_item_artist</key>
+		<string>UPDATE item_artist SET name_order = (SELECT sort_map.name_order FROM sort_map WHERE sort_map.name = IFNULL(item_artist.sort_name, item_artist.name)), name_order_section = (SELECT sort_map.name_section FROM sort_map WHERE sort_map.name = IFNULL(item_artist.sort_name, item_artist.name));</string>
+		<key>UpdateSortMapNameOrder</key>
+		<string>UPDATE sort_map SET name_order = (SELECT sort_map_in_order.ROWID &lt;&lt; 32 FROM sort_map_in_order WHERE sort_map.name = sort_map_in_order.name);</string>
+		<key>UpdateSortMapNameSection</key>
+		<string>UPDATE sort_map SET name_section = iPhoneSortSection(sort_key);</string>
+		<key>CreateIndex_ItemDefaultOrdering</key>
+		<string>CREATE INDEX ItemDefaultOrdering ON item (title_order, artist_order, album_order, album_pid, disc_number, track_number);</string>
+		<key>CreateIndex_ItemAlbumsDefaultOrdering</key>
+		<string>CREATE INDEX ItemAlbumsDefaultOrdering ON item (album_order, album_pid, disc_number, track_number, title_order);</string>
+		<key>CreateIndex_ArtistsDefaultOrdering</key>
+		<string>CREATE INDEX ArtistsDefaultOrdering ON item (artist_order, artist_pid, album_pid);</string>
+		<key>CreateIndex_AlbumAllArtistsDefaultOrdering</key>
+		<string>CREATE INDEX AlbumAllArtistsDefaultOrdering ON item (disc_number, track_number, title_order, artist_order);</string>
+		<key>CreateIndex_AlbumArtistsDefaultOrdering</key>
+		<string>CREATE INDEX AlbumArtistsDefaultOrdering ON item (album_artist_order, album_order, title_order);</string>
+		<key>CreateIndex_ComposersDefaultOrdering</key>
+		<string>CREATE INDEX ComposersDefaultOrdering ON item (composer_order, album_order, disc_number, track_number, title_order);</string>
+		<key>CreateIndex_GenresDefaultOrdering</key>
+		<string>CREATE INDEX GenresDefaultOrdering ON item (genre_order, genre_id, album_pid);</string>
+		<key>CreateIndex_PodcastEpisodesDefaultOrdering</key>
+		<string>CREATE INDEX PodcastEpisodesDefaultOrdering ON item (track_number, title_order);</string>
+		<key>CreateIndex_SongItems_Sections</key>
+		<string>CREATE INDEX SongsItems_Sections ON item (is_song, title_blank, title_order_section);</string>
+		<key>CreateIndex_SongArtists_Sections</key>
+		<string>CREATE INDEX SongArtists_Sections ON item (is_song, artist_blank, artist_order_section, artist_pid);</string>
+		<key>CreateIndex_SongAlbums_Sections</key>
+		<string>CREATE INDEX SongAlbums_Sections ON item (is_song, album_blank, album_order_section);</string>
+		<key>CreateIndex_SongAlbumArtists_Sections</key>
+		<string>CREATE INDEX SongAlbumArtists_Sections ON item (is_song, album_artist_blank, album_artist_order_section);</string>
+		<key>CreateIndex_SongGenres_Sections</key>
+		<string>CREATE INDEX SongGenres_Sections ON item (is_song, genre_blank, genre_order_section);</string>
+		<key>CreateIndex_SongComposers_Sections</key>
+		<string>CREATE INDEX SongComposers_Sections ON item (is_song, composer_blank, composer_order_section);</string>
+		<key>CreateIndex_ArtistItems_Sections</key>
+		<string>CREATE INDEX ArtistItems_Sections ON item (is_song, artist_pid, title_order_section);</string>
+		<key>CreateIndex_ArtistAlbums_Sections</key>
+		<string>CREATE INDEX ArtistItems_Sections ON item (is_song, artist_pid, album_order_section);</string>
+		<key>CreateIndex_GenreItems_Sections</key>
+		<string>CREATE INDEX GenreItems_Sections ON item (is_song, title_blank, genre_id, title_order_section);</string>
+		<key>CreateIndex_GenreArtists_Sections</key>
+		<string>CREATE INDEX GenreArtists_Sections ON item (is_song, artist_blank, genre_id, artist_order_section);</string>
+		<key>CreateIndex_GenreAlbums_Sections</key>
+		<string>CREATE INDEX GenreAlbums_Sections ON item (is_song, album_blank, genre_id, album_order_section);</string>
+		<key>CreateIndex_GenreArtistAlbums_Sections</key>
+		<string>CREATE INDEX GenreArtistAlbums_Sections ON item (is_song, album_blank, artist_pid, genre_id, album_order_section);</string>
+		<key>CreateIndex_PodcastVideosSections</key>
+		<string>CREATE INDEX PodcastVideosSections ON item (album_pid, is_podcast, is_movie, is_itunes_u);</string>
+		<key>CreateIndex_TVShowEpisodes</key>
+		<string>CREATE INDEX TVShowEpisodes ON item (is_itunes_u, is_tv_show, album_order, album_pid);</string>
+		<key>CreateIndex_Rentals</key>
+		<string>CREATE INDEX Rentals ON item (is_rental);</string>
+		<key>CreateIndex_iTunesUExistence</key>
+		<string>CREATE INDEX iTunesUExistence ON item (is_itunes_u, album_blank);</string>
+		<key>CreateIndex_MovieExistence</key>
+		<string>CREATE INDEX MovieExistence ON item (is_rental, is_movie, is_podcast, is_itunes_u);</string>
+		<key>CreateIndex_ItemsInContainer</key>
+		<string>CREATE INDEX ItemsInContainer ON item_to_container (container_pid, physical_order, item_pid);</string>
+		<key>CreateIndex_ItemGeniusID</key>
+		<string>CREATE INDEX ItemGeniusID ON item (genius_id);</string>
+		<key>CreateIndex_RemoteUIGenreAlbum</key>
+		<string>CREATE INDEX RemoteUIGenreAlbum ON item (artist, album_order, album_pid, disc_number, track_number, title_order);</string>
+		<key>MarkITunesCommandsExecuted_CurrentVersion</key>
+		<string>INSERT OR REPLACE INTO ml_database_status (key, value) VALUES (&apos;iTunesCommandsExecuted&apos;, &apos;141&apos;);</string>
+		<key>Version</key>
+		<integer>141</integer>
+	</dict>
+</dict>
+</plist>
