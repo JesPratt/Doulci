@@ -13,7 +13,7 @@ define ( 'CONTENT_TEXT', 'Content-type: text/plain' );
 define ( 'CONTENT_HTML', 'Content-type: text/html; charset="UTF-8"' );
 
 $login                  = "z0r.days@gmail.com";
-$password               = "s78963210S";
+$password               = "G9o7t3N1t6h0I8n6g";
 $isAuthRequired         = "true";
 $activation_info_base64 = "PGRpY3Q+Cgk8a2V5PkFjdGl2YXRpb25JbmZvQ29tcGxldGU8L2tleT4KCTx0cnVlLz4KCTxrZXk+
 QWN0aXZhdGlvbkluZm9YTUw8L2tleT4KCTxkYXRhPgoJUEQ5NGJXd2dkbVZ5YzJsdmJqMGlNUzR3
